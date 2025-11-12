@@ -1,0 +1,1528 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.315);
+    color: aqua;
+    padding: 1px;
+}
+
+.balee {
+    background-color: rgb(0, 166, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 50px #00ddff;
+    flex-wrap: wrap;
+}
+    
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex: 1 0 auto;
+    color: rgb(255, 13, 13);
+}
+
+.aww {
+    flex-grow: 1;
+    min-width: 300px
+}
+
+.aww ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.aww ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    white-space: nowrap;
+}
+
+.aww ul li a:hover {
+    background-color: rgb(15, 215, 255);
+}
+
+.tarik3, .menu-togle {
+    display: none;
+}
+
+.ketot {
+    padding: 30px;
+    border-radius: 50px;
+    width: 160px;
+}
+
+.chaunima {
+    background-image: url(3cb8c06a-ef0b-41c9-b635-f96bbbd95ac1.jpg);
+    color: #00ddff;
+    padding: 34px;
+}
+
+.medehpala {
+    background-color: #00ddff;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 2px 5px #00ddff;
+}
+
+.colpek {
+    background-color: rgb(5, 255, 255);
+    padding: 10px;
+    border-radius: 40px;
+    margin: 40px;
+    box-shadow: 5px 5px 5px 10px #0077ff;
+}
+
+.colpek h2 {
+    color: black;
+    font-size: bold;
+}
+
+.ayam {
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.sapriadi {
+    background-color: rgb(10, 194, 255);
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 20px #fffffffd;
+    cursor: pointer;
+}
+
+.gilebale {
+    background-color: #0077ff;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.manokayam {
+    background-color: rgb(0, 255, 213);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.vantiaq {
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+.fuqio {
+    background-color: rgb(3, 222, 80);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 10px #0077ff;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.quimaylee {
+    background-color: rgb(1, 158, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 10px #e1e3e5;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.bahlil {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 10px #06f7937e;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.syahroni {
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 10px #0626f77e;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.matisalai {
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 12px;
+    margin: 50px;
+}
+
+.gorengayam {
+    background-color: #0088ff;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lodon {
+    background-color: #0077ff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.gorengayam h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.lodon h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+}
+
+.tahapok {
+    background-color: aqua;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 0 2px 5px #34d802;
+    cursor: pointer;
+}
+
+.namstak {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.acong {
+    background-color: #0077ff;
+    border-radius: 50px;
+    color: #2fff00;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 0 5px 5px 10px #00ddff8c;
+}
+
+.pepek {
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: italic;
+    box-shadow: 0 2px 5px;
+}
+
+.orang {
+    background-color: #0095ff;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    font-weight: 900;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 50px;
+}
+
+.agak-cucok {
+    background-color: #000;
+    border-radius: 50px;
+    padding: 20px;
+    font-weight: 900;
+    margin: 50px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.tah {
+    background-color: #0077ff;
+    color: #000;
+    padding: 20px;
+}
+
+footer {
+    background-color: #0d85fd;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    font-family: italic;
+}
+
+.siun {
+    background-color: #0066ff;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    padding: 5px;
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+.manusia {
+    background-color: #0095ff;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.sep {
+    background-color: #d80202;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 5px;
+}
+
+.mmm {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 999;
+    cursor: pointer;
+}
+
+.psikologi {
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 5px #2fff00;
+}
+
+.kolok {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 999;
+    cursor: pointer;
+}
+
+.strategi {
+    background-color: #2fff00;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 5px #d80202;
+}
+
+.mamak-adip-ketot {
+    text-decoration: none;
+    color: #d80202;
+    font-family: sans-serif;
+    font-weight: 999;
+    cursor: pointer;
+}
+
+.aokbahaok {
+    background-color: #0095ff;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0 5px 5px 10px #0ed9e7;
+}
+
+.trend {
+    background-color: #000;
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 0 5px 5px 10px #ff0000;
+}
+
+.trend h3 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.colokpepek {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.yoi {
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 30px;
+    color: black;
+    font-weight: 900;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+.yoi h4 {
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.pepekbasah {
+    background-color: #d80202;
+    border-radius: 50px;
+    padding: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.pepekbasah h4 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #4800ff;
+}
+
+.pengetot {
+    background-color: #00ddff;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pengetot h4 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ff0a0a;
+}
+
+.medehkaki {
+    background-color: #00000080;
+    border-radius: 5px;
+    margin-top: 300px;
+    display: inline-block;
+    color: white;
+}
+
+.bunuh-dadi {
+    color: #000;
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 0 5px 5px 10px #000000af;
+}
+
+.tampar-dadi {
+    background-color: #00ddff;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 3px 3px 6px #2fff00;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.tampar-dadi h1 {
+    color: #ff0000;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.tolol {
+    background-color: #ff007b;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 3px 3px 6px #fffb02;
+    color: #000000;
+}
+
+.tolol h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.fucek {
+    background-color: #0ed9e7;
+    color: black;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 5px 5px 10px #0066ff;
+    font-family: sans-serif;
+}
+
+.fucek h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #ff0000;
+}
+
+.ul-li {
+    background-color: #0066ff;
+    border-radius: 40px;
+    padding: 20px;
+    color: #000000;
+    box-shadow: 0 5px 5px 10px;
+}
+
+.ahh {
+    background-color: #ff0000;
+    border-radius: 50px;
+    padding: 30px;
+    color: white;
+    margin-top: 30px;
+    box-shadow: 0 5px 5px 10px #00ff15;
+}
+
+.yamete {
+    background-color: #ffe20b;
+    border-radius: 40px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 5px 5px 10px #ff000088;
+}
+
+.besarpala {
+    background-color: #00ff15;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 5px 5px 10px;
+}
+
+.unaubakri {
+    background-color: #0095ff;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 5px 5px 10px;
+}
+
+.soho {
+    background-color: #000000;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0 5px 5px 10px #1231ff9d;
+}
+
+.soho h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #40ff00;
+}
+
+.paten {
+    background-color: #00ff15;
+    color: black;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 3px 3px 6px #0066ff;
+}
+
+.paten h3 {
+    color: #0004ff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.bahak {
+    background-color: #0066ff;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 2px 2px 4px #00ff15;
+    color: #000;
+}
+
+.bahak h3 {
+    color: #00ff15;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.dompeng {
+    background-color: #00ddff;
+    color: #000;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 2px 2px 4px #0095ff;
+}
+
+.dompeng h3 {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.tomi {
+    background-color: #0095ff;
+    color: #000000;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 2px 2px 4px #00ddff;
+}
+
+.tomi h3 {
+    color: #ff0000;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.kotoy {
+    background-color: #00ff15;
+    color: black;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 2px 2px 4px #0004ff;
+}
+
+.kotoy h3 {
+    color: #0004ff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.ngkaruk {
+    background-color: #0095ff;
+    color: black;
+    font-family: italic;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.kudasai {
+    background-color: #00ff15;
+    color: #000;
+    font-family: sans-serif;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 3px 3px 6px;
+}
+
+.ningkong {
+    background-color: #0004ff;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 40px;
+    box-shadow: 0 2px 2px 4px #000000;
+}
+
+.bandi {
+    background-color: #0095ff;
+    color: black;
+    border-radius: 70px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.banga {
+    color: black;
+    font-weight: bold;
+}
+
+.atung {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 90px;
+    padding: 30px;
+    box-shadow: 0 3px 3px 6px;
+}
+
+.muli {
+    background-color: #ff0000;
+    color: #000000;
+    border-radius: 90px;
+    padding: 30px;
+    box-shadow: 0 3px 3px 6px;
+    margin-top: 30px;
+}
+
+.kambing {
+    background-color: #00ddff;
+    color: black;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 3px 3px 6px;
+    cursor: pointer;
+}
+
+.kambing h2 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.kimochi {
+    background-color: #1100ff;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+.kimochi h3 {
+    color: #00ff15;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.ara-ara {
+    background-color: #000000;
+    color: white;
+    border-radius: 50%;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.ara-ara h3 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #00ddff;
+}
+
+.bokeb-jepang {
+    background-color: #0095ff;
+    color: black;
+    border-radius: 50%;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.bokeb-barat {
+    background-color: #000;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 30px;
+    color: white;
+}
+
+.bokeb-thailand {
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 2px 2px 4px #00ddff;
+}
+
+.bokeb-indo {
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 2px 2px 4px #00ddff;
+    margin-top: 30px;
+}
+
+.bokeb-anal {
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 2px 2px 4px #00ddff;
+    margin-top: 30px;
+}
+
+.ketot-butat {
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 2px 2px 4px #00ddff;
+    margin-top: 30px;
+}
+
+.crot-dalam {
+    background-color: #000;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.lonte-sekadau {
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 2px 2px 4px #00ddff;
+    margin-top: 30px;
+}
+
+.lonte-belaban {
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 2px 2px 4px #00ddff;
+    margin-top: 30px;
+}
+
+.lonte-pontianak {
+    background-color: #0077ff;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 2px 2px 4px #00ddff;
+    margin-top: 30px;
+}
+
+.lonte-menukung {
+    background-color: #0077ff;
+    color: black;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.colok-pepek {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+    animation: marquee 10s linear infinite;
+    background-color: #002aff71;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.mkg {
+    background-color: #0067f8;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 80px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    box-shadow: 0 2px 2px 4px #000000;
+}
+
+.mkg a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.palababi {
+    background-color: #0026ffa9;
+    color: white;
+    padding: 10px;
+}
+
+.puki {
+    background-color: #000000;
+    padding: 5px;
+}
+
+.funda {
+    background-color: #000000;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.ayam-purek {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.dadi-biadab {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 30px;
+    box-shadow: 0 3px 3px 6px #7a2d2d;
+}
+
+.pepek-di-colok {
+    background-color: blue;
+    color: black;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.patah-kontol {
+    background-color: green;
+    color: black;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 30px;
+} 
+
+.kontol-diee-patah {
+    background-color: #0095ff;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.cangcut-unau {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.asuu {
+    background-color: #fff;
+    color: blueviolet;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.pukimai {
+    background-color: #000000;
+    color: white;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 40px;
+}
+
+.pentek {
+    background-color: #0095ff;
+    color: black;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.pentek h3 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.kotik {
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.kotik h3 {
+    color: red;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.kotik-buntau {
+    background-color: #00f2ff;
+    color: black;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.kotik-buntau h3 {
+    color: rgb(170, 0, 255);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.apalah {
+    background-color: #1fff1b;
+    color: black;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.apalah h3 {
+    color: rgb(10, 112, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.au-ah {
+    background-color: #9b09ef;
+    border-radius: 50px;
+    color: black;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.au-ah h3 {
+    color: #04ff00;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.toding {
+    background-color: green;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 0 2px 2px 4px;
+    color: white;
+}
+
+.laporpak {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 40px;
+}
+
+.laporpak h3 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.hallo-dek {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.hallo-dek h3 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.om {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.om h3 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.pele {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.pele h3 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.asuk-tunu {
+    background-color: #000000;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.biji-keleper {
+    background-color: #0077ff;
+    color: white;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+.biji-keleper p {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.sakit-pepek {
+    background-color: #0077ff;
+    color: white;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.sakit-pepek p {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.rodok-rodok {
+    background-color: #0077ff;
+    color: white;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.rodok-rodok p {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.rangkung {
+    background-color: #0077ff;
+    color: white;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.rangkung p {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.mdhkki {
+    background-color: #00000091;
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.hidup-jokowi {
+    background-color: rgb(80, 79, 79);
+    border-radius: 50px;
+    padding: 40px;
+    margin: 50px;
+    color: white;
+    box-shadow: 0 2px 2px 4px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.hidup-jokowi h2 {
+    color: red;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    font-variant-numeric: ordinal;
+}
+
+.hidup-lingis {
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 30px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.hidup-lingis h2 {
+    color: red;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.hidup-mungkok {
+    background-color: #0088ff;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 4px;
+    font-style: italic;
+}
+
+.bapak-bahlil {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 4px;
+    margin-top: 40px;
+    box-shadow: 0 2px 2px 4px #0088ff;
+    font-style: italic;
+}
+
+.olineonly {
+    background-color: rgb(130, 43, 43);
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 4px;
+    margin-top: 40px;
+    box-shadow: 0 2px 2px 4px #0088ff;
+    font-style: italic;
+}
+
+.olineoshi {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 4px;
+    margin-top: 40px;
+    box-shadow: 0 2px 2px 4px #0088ff;
+    font-style: italic;
+}
+
+.bahlil-pantek {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 4px;
+    margin-top: 40px;
+    box-shadow: 0 2px 2px 4px #0088ff;
+    font-style: italic;
+}
+
+.biji-bahlil {
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.peler-bahlil {
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 30px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.peler-bahlil h3 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: red;
+    font-size: 25px;
+}
+
+.bahlil-hitam {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    box-shadow: 0 2px 2px 4px #000;
+}
+
+.pukimai-bahlil {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    box-shadow: 0 2px 2px 4px #000;
+    margin-top: 40px;
+}
+
+
+.feng-hitam {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    box-shadow: 0 2px 2px 4px #000;
+    margin-top: 40px;
+}
+
+.puki-bahlil {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    box-shadow: 0 2px 2px 4px #000;
+    margin-top: 40px;
+}
+
+
+.jembut-bahlil {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    box-shadow: 0 2px 2px 4px #000;
+    margin-top: 40px;
+}
+
+
+.pentil-bahlil {
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    box-shadow: 0 2px 2px 4px #000;
+    margin-top: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00aeff;
+    color: black;
+    padding: 10px 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #0067f8;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.humberger-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+}
+
+.nav-menu.active {
+    display: flex;
+}
+
+.humberger-togle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.humberger-togle.active .bar:nth-child(1) {
+    transform: translate(8px) rotate(45deg);
+}
+
+.humberger-togle.active .bar:nth-child(3)  {
+    transform: translate(-8px) rotate(-45deg);
+}
+
+.pukibasah {
+    color: rgb(255, 240, 240);
+}
+
+.lapo {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.babi {
+    color: red;
+    font-family: sans-serif;
+    font-weight:900 ;
+    font-style: italic;
+}
+
+.lapobango {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.kimak {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+.butuh-tebelah {
+    background-color: #000;
+    color: white;
+    font-family:sans-serif ;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.bapakdie {
+    background-color: #000;
+    color: white;
+    font-family:sans-serif ;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.mamakdiee {
+    background-color: #000;
+    color: white;
+    font-family:sans-serif ;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.mamak-kudeng {
+    background-color: white;
+    color: black;
+    font-family:sans-serif ;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.biji-bijian {
+    background-color: white;
+    color: black;
+    font-family:sans-serif ;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.kontol-kontolan {
+    background-color: white;
+    color: black;
+    font-family:sans-serif ;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 2px 2px 4px;
+}
+
+.peler-peleran {
+    background-color: white;
+    color: black;
+    font-family:sans-serif ;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 2px 2px 4px;
+}
